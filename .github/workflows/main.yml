@@ -1,0 +1,11 @@
+# Ctrlキー＋スペースを押すとサンプル候補が自動表示される
+name: demo
+
+on: 
+  workflow_dispatch: 
+jobs:
+  demo:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Greet
+        run: echo "Hello, World!"
